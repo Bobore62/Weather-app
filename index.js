@@ -20,7 +20,7 @@ function fetchData() {
 <span></span>
 </div>
      </div> `
-    const url = `http://api.openweathermap.org/data/2.5/forecast?q=${selectedDistrict},les&APPID=${APIKEY}`
+    const url = `http://api.openweathermap.org/data/2.5/forecast?q=${selectedDistrict},ls&APPID=${APIKEY}`
     fetch(url)
         .then(res=>res.json())
         .then(data=>{
