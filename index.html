@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+        <div class="logo-wrap">
+            <img src="Flag_of_Lesotho.svg.png" alt="Lesotho">
+            <h2>Weather App</h2>
+        </div>
+        <h3 style="margin-bottom: -2px;">Select District</h3>
+        <select id="district">
+            <option selected value="Maseru">Maseru</option>
+            <option value="Berea">Berea</option>
+            <option value="Leribe">Leribe</option>
+            <option value="Butha-Buthe">Butha-Buthe</option>
+            <option value="Mokhotlong">Mokhotlong</option>
+            <option value="Thaba-Tseka">Thaba-Tseka</option>
+            <option value="Qacha's Nek">Qacha's Nek</option>
+            <option value="Mohale's Hoek">Mohale's Hoek</option>
+            <option value="Quthing">Quthing</option>
+            <option value="Mafeteng">Mafeteng</option>
+        </select>
+        <section class="current"> 
+          
+        </section>
+        <section class="hourly-container">
+            <h3>Hourly Forecast</h3>
+            <div class="hourly-wrap">
+            </div>   
+        </section>
+        <section class="info-container">
+            <h3>Additional Information</h3>
+            <div class="info-wrap">
+                <div class="info">
+                    <img src="humidity.png" alt="icon">
+                    <h5 >Humidity</h5>
+                    <p class="humidity">0%</p>
+                </div>
+                <div class="info">
+                    <img src="pressure.png" alt="icon">
+                    <h5 >Pressure</h5>
+                    <p class="pressure">0 hPa</p>
+                </div>
+                <div class="info">
+                    <img src="wind.png" alt="icon">
+                    <h5 >Wind Speed</h5>
+                    <p class="wind">0 m/s</p>
+                </div>
+            </div>
+        </section>    
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
