@@ -20,6 +20,15 @@ function fetchData() {
 <span></span>
 </div>
      </div> `
+    hourlyContain.innerHTML=`
+    <div class="curent-weather" style="height:122px;justify-content:center;width:100vw">
+     <div class="loada">
+<span></span>
+<span></span>
+<span></span>
+</div>
+     </div> `
+
     const url = `http://api.openweathermap.org/data/2.5/forecast?q=${selectedDistrict},ls&APPID=${APIKEY}`
     fetch(url)
         .then(res=>res.json())
