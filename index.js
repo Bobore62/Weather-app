@@ -88,7 +88,7 @@ function getIcon(icon) {
         case 'Sunny':
             return './sun.png'
         case 'Clear':
-            return './sun.png'
+            return './clear.png'
         case 'Rain':
             return './rain.png'
         default:
